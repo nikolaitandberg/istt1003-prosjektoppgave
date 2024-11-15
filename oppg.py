@@ -28,7 +28,7 @@ df2['Price'] = df2['Price'].astype(float)
 # Definer kategoriene og temaene som tilhører hver kategori
 categories = {
     'Barn': ['DOTS', 'DUPLO', 'Disney', 'Juniors', 'LEGO Frozen 2', 'Minions', 'Powerpuff Girls', 'Trolls World Tour', 'Unikitty','Friends', 'City'], #0 - 9
-    'Ungdom': ['Friends', 'Batman', 'BrickHeadz', 'Creator 3-in-1', 'Hidden Side', 'Minecraft', 'Monkie Kid', 'Overwatch', 'Spider-Man', 'THE LEGO MOVIE 2', 'Harry Potter', 'NINJAGO'], # 9 - 15
+    'Ungdom': ['Batman', 'BrickHeadz', 'Creator 3-in-1', 'Hidden Side', 'Minecraft', 'Monkie Kid', 'Overwatch', 'Spider-Man', 'THE LEGO MOVIE 2', 'Harry Potter', 'NINJAGO'], # 9 - 15
     'Voksen': ['Architecture', 'Classic', 'Creator Expert', 'DC', 'Ideas', 'Jurassic World', 'Marvel', 'Minifigures', 'Powered UP', 'Speed Champions', 'Stranger Things', 'Technic', 'Xtra','Star Wars']  # 15+
 }
 
